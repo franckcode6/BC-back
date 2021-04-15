@@ -32,6 +32,7 @@ class Garage
      * @Groups({"garage:read"})
      * @Groups({"garage:write"})
      * @Groups({"advert:read"})
+     * @Groups({"user:read"})
      */
     private $name;
 

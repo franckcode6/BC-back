@@ -30,23 +30,23 @@ class User implements UserInterface
 
     /**
      * @ORM\Column(type="string", length=180, unique=true)
-     * @Groups({"utilisateur:read"})
-     * @Groups({"utilisateur:write"})
+     * @Groups({"user:read"})
+     * @Groups({"user:write"})
      */
     private $email;
 
     /**
      * @ORM\Column(type="json")
-     * @Groups({"utilisateur:read"})
-     * @Groups({"utilisateur:write"})
+     * @Groups({"user:read"})
+     * @Groups({"user:write"})
      */
     private $roles = [];
 
     /**
      * @var string The hashed password
      * @ORM\Column(type="string")
-     * @Groups({"utilisateur:read"})
-     * @Groups({"utilisateur:write"})
+     * @Groups({"user:read"})
+     * @Groups({"user:write"})
      */
     private $password;
 

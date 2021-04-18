@@ -39,6 +39,7 @@ class Model
      * @ORM\Column(type="integer", nullable=true)
      * @Groups({"model:write"})
      * @Groups({"model:read"})
+     * @Groups({"advert:read"})
      */
     private $motorPower;
 
@@ -46,6 +47,7 @@ class Model
      * @ORM\Column(type="integer", nullable=true)
      * @Groups({"model:write"})
      * @Groups({"model:read"})
+     * @Groups({"advert:read"})
      */
     private $gasTankCapacity;
 
@@ -53,6 +55,7 @@ class Model
      * @ORM\Column(type="string", length=12, nullable=true)
      * @Groups({"model:write"})
      * @Groups({"model:read"})
+     * @Groups({"advert:read"})
      */
     private $euroNorm;
 
@@ -60,6 +63,7 @@ class Model
      * @ORM\Column(type="string", length=6, nullable=true)
      * @Groups({"model:write"})
      * @Groups({"model:read"})
+     * @Groups({"advert:read"})
      */
     private $axle;
 

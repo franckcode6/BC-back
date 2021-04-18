@@ -25,6 +25,8 @@ class User implements UserInterface
      * @ORM\Column(type="integer")
      * @Groups({"user:read"})
      * @Groups({"garage:write"})
+     * @Groups({"garage:read"})
+     * @Groups({"advert:read"})
      */
     private $id;
 

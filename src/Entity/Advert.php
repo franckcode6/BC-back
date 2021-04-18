@@ -21,6 +21,7 @@ class Advert
      * @ORM\GeneratedValue
      * @ORM\Column(type="integer")
      * @Groups({"advert:read"})
+     * @Groups({"advert:write"})
      */
     private $id;
 

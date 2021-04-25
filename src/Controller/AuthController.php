@@ -8,7 +8,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Security\Core\Encoder\UserPasswordEncoderInterface;
 
-class sAuthController extends AbstractController
+class AuthController extends AbstractController
 {
     public function register(Request $request, UserPasswordEncoderInterface $encoder)
     {
